@@ -317,9 +317,7 @@ export const quotes = [
   "Jede Mahlzeit ist ein neuer Anfang.",
   "Die schönste Uhrzeit ist die, wenn das Essen fertig ist.",
   "Möge dein nächstes Rezept das schönste werden, das du je gekocht hast.",
-  "Guten Appetit — und vor allem: gute Menschen um den Tisch."
+  "Guten Appetit — und vor allem: gute Menschen um den Tisch.",
 ];
 
-const start = new Date(new Date().getFullYear(), 0, 0);
-const dayOfYear = Math.floor((Date.now() - start) / 86400000);
-export const todayQuote = quotes[dayOfYear % quotes.length];
+export const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
