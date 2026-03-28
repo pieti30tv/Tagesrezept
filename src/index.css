@@ -239,3 +239,15 @@ body {
     max-width: 340px;
   }
 }
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  color: #999;
+  text-align: center;
+}
+
+.attribution a {
+  color: #999;
+  text-decoration: underline;
+}

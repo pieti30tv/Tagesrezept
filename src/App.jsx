@@ -78,6 +78,9 @@ export default function App() {
           </div>
         </div>
       )}
+      <footer className="attribution">
+        Icon von <a href="https://www.flaticon.com/de/kostenlose-icons/ofen" title="ofen Icons" target="_blank" rel="noopener noreferrer">Freepik – Flaticon</a>
+      </footer>
     </div>
   );
 }
