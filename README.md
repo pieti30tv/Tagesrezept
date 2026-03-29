@@ -2,6 +2,8 @@
 
 A minimal web app that displays a random German recipe each day — at the press of a button.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/87267b35-a6cc-43c2-a619-75c1385cc867/deploy-status)](https://app.netlify.com/projects/tagesrezept/deploys)
+
 ---
 
 ## Features
